@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <h2>Donor Information</h2>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="company">company</label>
+                    <input type="text" id="company" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="address1">address1</label>
+                    <input type="text" id="address1" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address1">address2</label>
+                    <input type="text" id="address2" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="city">city</label>
+                    <input type="text" id="city" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="state">state</label>
+            
+                    <select name="state" id="state">
+                        <option>Select a state</option>
+                        <option>Dhaka</option>
+                        <option>Rangpur</option>
+                        <option>Barisal</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="zipcode">zipcode</label>
+                    <input type="number" id="zipcode" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="country">Country</label>
+            
+                    <select name="country" id="country">
+                        <option>Select a country</option>
+                        <option>Bangladesh</option>
+                        <option>India</option>
+                        <option>Uk</option>
+                        <option>USA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">phone</label>
+                    <input type="tel" id="phone" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fax">fax</label>
+                    <input type="number" id="fax" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">email</label>
+                    <input type="email" id="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="donation">Donation Amount <br> (check a button for type in your amount) </label>
+                    <input type="radio" name="donation" value="None">None
+                    <input type="radio" name="donation" value="50">50%
+                    <input type="radio" name="donation" value="75">75$
+                    <input type="radio" name="donation" value="100">100$
+                    <input type="radio" name="donation" value="250">250$
+                    <input type="radio" name="donation" value="other">other
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <label for="otherAmount">other amount $</label>
+                   <input type="number" id="otherAmount">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="recurring">Recurring Donation</label>
+                    <input type="checkbox" value="recurring">I am interested in giving on a regular basis. <br>
+                   
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                     Monthly Credit Card $ <input type="number"> For <input type="number">Months  
+                </td>
+            </tr>
+
+            <h2>Honorarium and Memorial Donation Information</h2>
+            <tr>
+                <td>
+                    <label for="honorarium">I would like to make this <br> donation </label>
+                    <input type="radio" name="honorarium" value="honor">To Honor
+                    <input type="radio" name="honorarium" value="honor">In Memory of
+
+                </td>
+            </tr>
+
+                <tr>
+                <td>
+                    <label for="name2">name</label>
+                    <input type="text" id="name2" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">address</label>
+                    <input type="text" id="address" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="city2">city</label>
+                    <input type="text" id="city2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="state2">state</label>
+            
+                    <select name="state2" id="state2">
+                        <option>Select a state</option>
+                        <option>Dhaka</option>
+                        <option>Rangpur</option>
+                        <option>Barisal</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="zip2">zip</label>
+                    <input type="number" id="zip2">
+                </td>
+            </tr>
+
+        
+
+
+
+        </table>
+    </form>
+
+
+</body>
+
+</html>
